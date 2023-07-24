@@ -15,8 +15,7 @@ export default defineConfig({
     },
     plugins: [...getMapsOptimizers(maps)],
     server: {
-        host: "127.0.0.1",
-        port:5173,
+        host: "localhost",
         headers: {
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
