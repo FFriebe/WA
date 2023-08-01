@@ -2,6 +2,7 @@
   "name": "workadventure-map-starter-kit",
   "version": "3.3.3",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "start": "vite",
